@@ -19,5 +19,4 @@ steps:
      repository: $(imageName)
      command: build
      Dockerfile: app/Dockerfile
-- bash: pwd
-- bash: ls -al
+- bash: echo "Hello world"
