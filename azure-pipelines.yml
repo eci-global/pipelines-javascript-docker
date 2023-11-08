@@ -19,4 +19,5 @@ steps:
      repository: $(imageName)
      command: build
      Dockerfile: app/Dockerfile
- - bash: echo "Hello world"
+ - bash: pwd
+ - bash: ls -al
