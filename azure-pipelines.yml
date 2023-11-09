@@ -19,7 +19,7 @@ parameters:
 - name: What we need
   displayName: Environment
   type: string
-  default: dev
+  default: 1
   values:
   - 1
   - 2
