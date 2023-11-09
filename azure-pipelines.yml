@@ -6,6 +6,26 @@
 trigger:
 - main
 
+parameters:
+- name: environment_name
+  displayName: Environment
+  type: string
+  default: dev
+  values:
+  - dev
+  - staging
+  - prod
+  - playground 
+- name: What we need
+  displayName: Environment
+  type: string
+  default: dev
+  values:
+  - 1
+  - 2
+  - 3
+  - 4 
+
 pool:
   vmImage: ubuntu-latest
 
